@@ -13,7 +13,7 @@
           <div>
             <img src="./img/logo.svg" alt="logo" />
           </div>
-          <nav>
+          <nav class="navbar">
             <a href="#product">Product</a>
             <a href="#features">Features</a>
             <a href="">Pricing</a>
@@ -30,36 +30,41 @@
     <main>
       <div class="container">
         <div class="section1">
-          <div>
+          <div class="hero-sec">
             <h1>Accelerate localization from code to delivery</h1>
             <p class="text">
               A localization and translation management platform for agile
               teams. Embrace automation, workflow transparency, and fast project
               delivery.
             </p>
-            <button class="solid2">Try it for free</button>
-            <button class="outline2">Book a demo</button>
+            <div class="button-group">
+              <button class="solid2">Try it for free</button>
+              <button class="outline2">Book a demo</button>
+            </div>
+
             <p class="text2">
               Try all features for 14 days · No credit card required
             </p>
           </div>
           <div class="image">
-            <img src="./img/1.svg" alt="" />
+            <img class="img" src="./img/1.svg" alt="" />
           </div>
         </div>
       </div>
-      <div class="container1">
-        <div class="section2">
-          <h2 class="text-section2">
-            The preferred localization tool of 1500+ companies
-          </h2>
-          <div class="companies">
-            <img src="./img/company1.svg" alt="" />
-            <img src="./img/company2.svg" alt="" />
-            <img src="./img/company3.svg" alt="" />
-            <img src="./img/company4.svg" alt="" />
-            <img src="./img/company5.svg" alt="" />
-            <img src="./img/company6.svg" alt="" />
+      <div class="containerbg1">
+        <div class="container">
+          <div class="section2">
+            <h2 class="text-section2">
+              The preferred localization tool of 1500+ companies
+            </h2>
+            <div class="companies">
+              <img src="./img/company1.svg" alt="" />
+              <img src="./img/company2.svg" alt="" />
+              <img src="./img/company3.svg" alt="" />
+              <img src="./img/company4.svg" alt="" />
+              <img src="./img/company5.svg" alt="" />
+              <img src="./img/company6.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -74,12 +79,13 @@
             </p>
             <a href="">Start now</a>
           </div>
-          <img src="./img/img__1.svg" alt="" width="50%" />
+          <div class="img-sc">
+            <img src="./img/img__1.png" alt="" width="100%" />
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="section4">
-          <img src="./img/img__2.svg" alt="" width="50%" />
           <div class="section4-block">
             <h2>Shorten time to market</h2>
             <p>
@@ -89,6 +95,9 @@
               waiting.
             </p>
             <a href="">Start now</a>
+          </div>
+          <div class="img-sc">
+            <img src="./img/img__2.png" alt="" width="100%" />
           </div>
         </div>
       </div>
@@ -105,12 +114,13 @@
             </p>
             <a href="">Start now</a>
           </div>
-          <img src="./img/img__3.svg" alt="" width="50%" />
+          <div class="img-sc">
+            <img src="./img/img__3.png" alt="" width="100%" />
+          </div>
         </div>
       </div>
       <div class="container">
         <div class="section6">
-          <img src="./img/img__4.svg" alt="" width="50%" />
           <div class="section6-block">
             <h2>Less work for developers</h2>
             <p>
@@ -119,6 +129,9 @@
               SDKs, and integrations with GitHub, Bitbucket, JIRA, and more.
             </p>
             <a href="">Start now</a>
+          </div>
+          <div class="img-sc">
+            <img src="./img/img__4.png" alt="" width="100%" />
           </div>
         </div>
       </div>
@@ -237,8 +250,8 @@
             <img src="./img/cake.svg" alt="" height="154" width="176" />
             <h2>The most-loved translation management software</h2>
             <div class="captera">
-              <img src="./img/g2.svg" alt="" />
-              <img src="./img/captera.svg" alt="" />
+              <img src="./img/g2.svg" alt="" width="100%" />
+              <img src="./img/captera.svg" alt="" width="100%" />
             </div>
           </div>
         </div>
@@ -250,7 +263,7 @@
             Automate processes, eliminate routine tasks, and track progress with
             ease.
           </p>
-          <img src="./img/bigimg.svg" alt="" />
+          <img src="./img/bigimg.svg" alt="" width="100%" />
           <button class="solid3">See all integrations</button>
         </div>
       </div>
@@ -273,44 +286,46 @@
           <p>Riding towards global success with a 100% teammate enthusiasm</p>
           <a href="">Read More</a>
         </div>
-        <div class="div2">
-          <h2>Product</h2>
-          <a>For developers</a>
-          <a>For managers</a>
-          <a>For translators</a>
-          <a>For designers</a>
-          <a>Integrations</a>
-          <a>Security</a>
-          <a>Pricing</a>
-          <a>Automations</a>
-        </div>
-        <div class="div2">
-          <h2>Support</h2>
-          <a>Contact</a>
-          <a>Documentation</a>
-          <a>Status</a>
-          <a>CLI Tool</a>
-          <a>API Reference</a>
-          <a>iOS and Android SDK</a>
-          <a>Supported File Formats</a>
-        </div>
-        <div class="div2">
-          <h2>Company</h2>
-          <a>About</a>
-          <a>Blog</a>
-          <a>Careers | We`re Hiring</a>
-          <a>Case Studies</a>
-          <a>Media Kit</a>
-        </div>
-        <div class="div2">
-          <h2>Legal</h2>
-          <a>Terms of Service</a>
-          <a>Privacy Policy</a>
-          <a>Cookie Policy</a>
-          <a>Privacy Shield</a>
-          <a>DPA</a>
-          <a>List of Sub-processors</a>
-          <a>Candidates Privacy Notice</a>
+        <div class="down-wrapper">
+          <div class="div2">
+            <h2>Product</h2>
+            <a>For developers</a>
+            <a>For managers</a>
+            <a>For translators</a>
+            <a>For designers</a>
+            <a>Integrations</a>
+            <a>Security</a>
+            <a>Pricing</a>
+            <a>Automations</a>
+          </div>
+          <div class="div2">
+            <h2>Support</h2>
+            <a>Contact</a>
+            <a>Documentation</a>
+            <a>Status</a>
+            <a>CLI Tool</a>
+            <a>API Reference</a>
+            <a>iOS and Android SDK</a>
+            <a>Supported File Formats</a>
+          </div>
+          <div class="div2">
+            <h2>Company</h2>
+            <a>About</a>
+            <a>Blog</a>
+            <a>Careers | We`re Hiring</a>
+            <a>Case Studies</a>
+            <a>Media Kit</a>
+          </div>
+          <div class="div2">
+            <h2>Legal</h2>
+            <a>Terms of Service</a>
+            <a>Privacy Policy</a>
+            <a>Cookie Policy</a>
+            <a>Privacy Shield</a>
+            <a>DPA</a>
+            <a>List of Sub-processors</a>
+            <a>Candidates Privacy Notice</a>
+          </div>
         </div>
       </div>
       <div class="container">
