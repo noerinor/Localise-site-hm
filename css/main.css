@@ -57,7 +57,6 @@ header {
   z-index: 1;
   cursor: pointer;
   display: block;
-  position: relative;
   border: none;
   background: transparent;
   width: 40px;
@@ -72,7 +71,7 @@ header {
   position: absolute;
   display: block;
   width: 100%;
-  height: 4px;
+  height: 3px;
   border-radius: 10px;
   background: #000;
 }
@@ -101,7 +100,7 @@ header {
 .menu-list {
   top: 0;
   left: 0;
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,7 +109,7 @@ header {
   margin: 0;
   background: black;
   list-style-type: none;
-  transform: translateX(-200%);
+  transform: translateX(200%);
   transition: 0.3s;
   width: 100%;
   height: 100vh;
@@ -130,6 +129,9 @@ header {
   transform: translateX(0);
 }
 
+body.menu-list {
+  overflow: hidden;
+}
 /* BURGER */
 .header-flex {
   display: flex;
@@ -463,6 +465,10 @@ nav a {
   font-size: 15px;
   padding-bottom: 7px;
 }
+.s9-img {
+  max-width: 300px;
+  width: 100%;
+}
 .containerbg {
   background-color: #c9e8f2;
 }
@@ -485,9 +491,14 @@ nav a {
 }
 .captera {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   padding-left: 50px;
   border-left: 2px solid;
+}
+.captera-img {
+  min-width: none;
+  max-width: 100px;
+  width: 100%;
 }
 .section11 {
   display: flex;
@@ -564,7 +575,10 @@ footer {
   border-bottom: 2px solid;
   flex-wrap: nowrap;
 }
-
+.div1-img {
+  max-width: 300px;
+  width: 100%;
+}
 .div1 {
   display: flex;
   flex-direction: column;
@@ -861,6 +875,9 @@ footer {
     padding-bottom: 15px;
     line-height: 25px;
     max-width: 100%;
+  }
+  .text2 {
+    font-size: 13px;
   }
   /* SECTIONS  */
   .section2 h2 {
